@@ -1,4 +1,3 @@
-// Initializations (remains unchanged)
 var arr = [[], [], [], [], [], [], [], [], []];
 for (var row = 0; row < 9; row++) {
     for (var column = 0; column < 9; column++) {
