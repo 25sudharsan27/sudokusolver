@@ -1,0 +1,138 @@
+
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    /* font-weight: bolder; */
+    font-family:'Poppins', sans-serif;
+}
+
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    
+    max-width: 713px;
+    min-width: 713px;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    
+    
+}
+
+.sudoku_grid div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    color: black;
+    font-size: 40px;
+    box-sizing: border-box;
+    border-radius:20px;
+    margin:7px;
+}
+
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    align-items: center;
+}
+
+.abhead{
+    margin-top:250px;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#GetPuzzle,#SolvePuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #1499ff;
+    padding: 10px 35px;
+    font-size: 24px;
+   
+    border-radius:20px;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
+    height:50px;
+}
+
+#GetPuzzle:hover,#SolvePuzzle:hover{
+    transition :"background 0.3s";
+
+    background-color: black;
+    color: white;
+}
+
+
+.box1{
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+
+.box1:hover{
+    background-color: rgb(207, 226, 252);
+    color: black;
+}
+
+
+.box2{
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0px 0px 3px 0px black;
+
+}
+
+.box2:hover{
+    background-color: rgb(207, 226, 252);
+}
+
+.box3{
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0px 0px 3px 0px black;
+
+}
+
+.box3:hover{
+    background-color: rgb(207, 226, 252);
+    color: black;
+}
+
+.bl{
+    border-left: 4px solid black;
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
+
+body {
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+}
